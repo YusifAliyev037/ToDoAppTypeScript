@@ -1,9 +1,9 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 
 
-interface TodoItem {
+export interface TodoItem {
     id:number;
-    text:string
+    title:string
 }
 
 interface TodoState {
