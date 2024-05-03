@@ -7,9 +7,9 @@ import { ToDo } from './Cards';
 
 
 function Search() {
-  const [check, setCheck] = useState(false);
-  const [idcount, setIdcount] = useState(201);
-  const [title, setTitle] = useState('');
+  const [check, setCheck] = useState<boolean>(false);
+  const [idcount, setIdcount] = useState<number>(201);
+  const [title, setTitle] = useState<string>('');
   
   const dispatch = useDispatch();
   const toast = useToast(); 
